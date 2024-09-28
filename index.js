@@ -3,7 +3,7 @@ import express, { response } from 'express';
 // create object of express
 const app = express();
 // port number on which you want to run the application
-app.use(express, json());
+app.use(express. json());
 const port = 3000;
 // res:request; res:responde
 // app.get(), one of the initial five methods
